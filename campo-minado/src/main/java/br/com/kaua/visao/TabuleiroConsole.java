@@ -75,6 +75,7 @@ public class TabuleiroConsole {
                 }
             }
 
+            System.out.println(tabuleiro);
             System.out.println("Você Ganhou!!!\n" +
                     "░░░░░░░█▐▓▓░████▄▄▄█▀▄▓▓▓▌█\n" +
                     "░░░░░▄█▌▀▄▓▓▄▄▄▄▀▀▀▄▓▓▓▓▓▌█\n" +
@@ -89,6 +90,7 @@ public class TabuleiroConsole {
                     "█▐▓▓▓▓▓▓▄▄▄▓▓▓▓▓▓█▓█▓█▓█▓▓▓▐█");
 
         } catch (ExplosaoException e){
+            System.out.println(tabuleiro);
             System.out.println("Você Perdeu!\n" +
                     "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡼⠛⣙⠛⠳⢦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n" +
                     "⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣰⠋⣰⣿⠿⠿⢷⣦⡈⢻⡀⠀⠀⠀⠀⠀⠀⠀⠀\n" +
